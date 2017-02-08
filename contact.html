@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Jay Skript and the Domsters</title>
+    <link rel="stylesheet" type="text/css" href="styles/basic.css" />
+    <script type="text/javascript" src="scripts/jquery-3.1.1.js"></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo.gif" alt="Jay Skript and the Domsters" />
+        <nav>
+            <ul>
+                <li><a href="index.html">主页</a></li>
+                <li><a href="about.html">关于</a></li>
+                <li><a href="photos.html">图像</a></li>
+                <li><a href="live.html">行程</a></li>
+                <li><a href="contact.html">联系</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+        <h1>联系乐队</h1>
+        <form method="post" action="submit.html">
+            <fieldset>
+                <p>
+                    <label for="name">用户名:</label>
+                    <input type="text" id="name" name="name" placeholder="您的用户名" required="required" />
+                </p>
+                <p>
+                    <label for="email">邮箱:</label>
+                    <input type="email" id="email" name="email" placeholder="您的邮箱地址" required="required" />
+                </p>
+                <p>
+                    <label for="message">正文:</label>
+                    <textarea cols="45" rows="7" id="message" name="message" required="required" placeholder="请输入具体信息"></textarea>
+                </p>
+                <input type="submit" value="发送" />
+           </fieldset>
+        </form>
+    </article>
+    <script type="text/javascript" src="scripts/global_jq.js"></script>
+</body>
+</html>
