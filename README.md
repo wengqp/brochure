@@ -6,3 +6,4 @@
 
 # 项目说明
 项目来源于《JavaScript DOM 编程艺术》，经过 jQuery 简化重新实现功能。其中因为没有搭建后台， Chrome 跨域不支持 file:// 请求，Ajax操作没有显示出来。
+[访问网址](https://wengqp.github.io/brochure/index.html)
